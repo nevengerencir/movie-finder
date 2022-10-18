@@ -21,7 +21,7 @@ $('#title').autocomplete({
             $('#cast').empty()
             result.cast.array.forEach(cast => 
                 {
-                    $(cast).append(`<li>${cast}</li>`)
+                    $('cast').append(`<li>${cast}</li>`)
                 
             })
             $('img').attr('src',result.poster)
